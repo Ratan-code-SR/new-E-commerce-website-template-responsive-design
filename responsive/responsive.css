@@ -42,15 +42,40 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
         justify-content: space-evenly;
+        padding: 0 12px;
+    }
+
+    .e-coomerce-site-section {
+        border-top: none;
+        border-bottom: none;
+        /* padding: 10px 0px; */
     }
 
     .e-comarce-logo img {
-        width: 50%;
+        width: 100%;
     }
 
     /* card section */
     .card-section {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* features-section  */
+    .features-section {
+        flex-direction: column-reverse;
+    }
+
+    .features-right-content {
+        text-align: center;
+        width: 300px;
+    }
+
+    .features-right-content h1 {
+        font-size: 30px;
+    }
+
+    .features-left-content img {
+        padding: 0 22px;
     }
 }
 
@@ -92,20 +117,46 @@
     }
 
     /* e-commarce section */
+    .e-coomerce-site-section {
+        border-top: none;
+        border-bottom: none;
+        /* padding: 10px 0px; */
+    }
+
     .e-comarce-logo {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
         text-align: center;
+        padding: 0 12px;
     }
 
     .e-comarce-logo img {
-        width: 50%;
+        width: 100%;
     }
 
     /* card section */
     .card-section {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    /* features-section  */
+    /* features-section  */
+    .features-section {
+        flex-direction: column-reverse;
+    }
+
+    .features-right-content {
+        text-align: center;
+        width: 300px;
+    }
+
+    .features-right-content h1 {
+        font-size: 30px;
+    }
+
+    .features-left-content img {
+        padding: 0 22px;
     }
 }
