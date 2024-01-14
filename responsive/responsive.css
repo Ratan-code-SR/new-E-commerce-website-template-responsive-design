@@ -14,7 +14,7 @@
 
     }
 
-    /*  */
+    /* banner */
     .banner-title {
         font-size: 31px;
         line-height: 47px;
@@ -48,7 +48,7 @@
     .e-coomerce-site-section {
         border-top: none;
         border-bottom: none;
-        /* padding: 10px 0px; */
+
     }
 
     .e-comarce-logo img {
@@ -90,11 +90,11 @@
 
     /* nav */
     .nav-ul li {
-        display: block;
+        margin-top: 25px;
 
     }
 
-    /*  */
+    /* banner */
     .banner-title {
         font-size: 31px;
         line-height: 47px;
@@ -117,10 +117,11 @@
     }
 
     /* e-commarce section */
+
     .e-coomerce-site-section {
         border-top: none;
         border-bottom: none;
-        /* padding: 10px 0px; */
+
     }
 
     .e-comarce-logo {
@@ -142,21 +143,16 @@
     }
 
     /* features-section  */
-    /* features-section  */
     .features-section {
         flex-direction: column-reverse;
     }
 
     .features-right-content {
         text-align: center;
-        width: 300px;
     }
 
     .features-right-content h1 {
         font-size: 30px;
     }
 
-    .features-left-content img {
-        padding: 0 22px;
-    }
 }
