@@ -209,6 +209,7 @@ span.comment {
 .learn-more-btn {
     display: flex;
     justify-content: flex-end;
+    margin-right: 13px;
 }
 
 .learn-more-btn a {
@@ -216,6 +217,7 @@ span.comment {
     font-family: var(--primary-font);
     font-size: 15px;
     font-weight: 500;
+    text-decoration: none;
 }
 
 
@@ -251,4 +253,43 @@ span.comment {
 
 button.btn-primary.feature-btn {
     border-radius: 0;
+}
+
+
+/* footer-section */
+footer {
+    background-color: #0a0826;
+    line-height: 20px;
+    margin: 50px 0;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 36px 0;
+    line-height: 31px;
+}
+
+.footer-section h2 {
+    color: var(--white-color);
+    margin-top: 30px;
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.footer-section p {
+    color: var(--white-color);
+    font-family: var(--tird-font);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-section li {
+    display: inline-block;
+}
+
+.footer-section li a {
+    color: var(--white-color);
+    padding: 0 10px;
 }
